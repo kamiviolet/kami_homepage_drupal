@@ -2,31 +2,32 @@
 
 body {
   color: #3b3b3b;
-  background: #292929;
+  /*background: #292929;*/
+  background: rgb(190,217,255);
 }
 
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: inherit;
 }
 
 .tabs ul.primary li a.is-active {
-  background-color: #fff;
+  background-color: inherit;
 }
 
 .tabs ul.primary li.is-active a {
-  background-color: #fff;
+  background-color: inherit;
   border-bottom-color: #fff;
 }
 
 #navbar-top {
-  background-color: #055a8e;
+  background-color: rgb(171,197,230);
 }
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: rgb(171,197,230);
 }
 
 a,

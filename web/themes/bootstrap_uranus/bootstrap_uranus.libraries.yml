@@ -3,7 +3,11 @@ global-styling:
   js:
     js/global.js: {}
   css:
+    theme:
+      https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap: { type: external }
     component:
+      css/brands.css: { weight: 102 }
+      css/fonts.css: { weight: 101 }
       css/style.css: { weight: 100 }
       css/colors.css: { weight: 99 }
 bootstrap:
@@ -16,7 +20,7 @@ bootstrap:
   dependencies:
     - core/popperjs
 color.preview:
-  version: VERSION
+  version: 1.0
   css:
     theme:
       color/preview.css: {}
