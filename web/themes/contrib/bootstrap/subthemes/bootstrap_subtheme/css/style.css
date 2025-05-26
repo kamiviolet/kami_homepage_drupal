@@ -1,0 +1,123 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+body {
+  position: relative;
+  font-family: Inter,Inter Fallback;
+}
+
+#page {
+  display: grid;
+  line-height: 1.5em;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.layout-main-wrapper {
+  padding: 2rem;
+  max-width: 1024px;
+  justify-self: center;
+}
+
+.nav li {
+  list-style: none;
+}
+.navbar-collapse {
+  padding-block-start: 5rem;
+  position: absolute;
+  background: rgba(169, 196, 230, 0.85);
+  backdrop-filter: blur(2px);
+  height: 100vh;
+  width: 100%;
+}
+.menu--main .navbar-nav {
+  /*background: inherit;*/
+  padding: .5rem;
+}
+.menu--main .navbar-nav li > a {
+  margin-inline-end: 1rem;
+  text-transform: uppercase;
+}
+.menu--main .navbar-nav {
+  display: grid;
+  place-items: center;
+}
+.navbar-collapse .navbar-nav li {
+  padding-block: 0.5rem;
+}
+.navbar-toggler {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+.navbar-toggler .bar {
+  border-radius: 10px;
+  width: 36px;
+  height: 4px;
+  background: black;
+  margin-block: 0.5rem;
+}
+.navbar-toggler .bar:last-of-type {
+  display: block;
+}
+.is-expanded.navbar-toggler .bar:last-of-type {
+  display: none;
+}
+.is-expanded.navbar-toggler .bar:nth-of-type(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.is-expanded.navbar-toggler .bar:nth-of-type(2) {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+body:not(:has(.collapse)) {
+  overflow: hidden;
+}
+.collapse {
+  display: none;
+}
+.site-footer .content a {
+  color: unset;
+}
+.site-footer {
+  background: inherit;
+  color: black;
+  display: grid;
+  place-items: center;
+}
+.navbar-dark .nav-link,
+.nav-link {
+  color: unset;
+}
+
+.site-footer .content a:hover,
+.site-footer .content a:focus,
+.navbar-dark .nav-link:hover,
+.nav-link:hover,
+.navbar-dark .nav-link:focus,
+.nav-link:focus {
+  color: #b64c18;
+}
+
+@media screen and (min-width: 992px) {
+  body:not(:has(.collapse)) {
+    overflow: unset;
+  }
+  .navbar-collapse {
+    display: unset;
+    position: unset;
+    height: auto;
+    padding-block-start: unset;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .menu--main .navbar-nav {
+    display: flex;
+  }
+}

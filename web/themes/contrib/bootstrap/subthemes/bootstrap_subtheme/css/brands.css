@@ -1,0 +1,15 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  width: min-content;
+}
+.navbar-brand img {
+  width: 5rem;
+  height: auto;
+  margin: .5rem;
+}
