@@ -6,8 +6,10 @@ global-styling:
     theme:
       https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap: { type: external }
     component:
-      css/main__menu.css: { weight: 102 }
-      css/site_branding.css: { weight: 102 }
+      css/entity-reference-tech-stack.css: { weight: 102 }
+      css/node-project.css: { weight: 102 }
+      css/main-nav.css: { weight: 102 }
+      css/site-branding.css: { weight: 102 }
       css/fonts.css: { weight: 101 }
       css/style.css: { weight: 100 }
       css/colors.css: { weight: 99 }

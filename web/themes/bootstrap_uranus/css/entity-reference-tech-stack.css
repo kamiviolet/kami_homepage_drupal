@@ -1,0 +1,9 @@
+.field--name-field-tech-stack > .field__items {
+  display: flex;
+}
+.field--name-field-tech-stack > .field__items .field__item {
+  margin-inline-end: .5rem;
+}
+.field--name-field-tech-stack > .field__items .field__item h2 {
+  display: none;
+}

@@ -23,6 +23,16 @@ button, a {
   justify-self: center;
 }
 
+.field__label,
+.field--type-entity-reference .field__label {
+  text-transform: capitalize;
+  padding-block-end: .5rem;
+  font-weight: 700;
+}
+.field__label:after,
+.field--type-entity-reference .field__label:after {
+  content: ":";
+}
 .nav li {
   list-style: none;
 }

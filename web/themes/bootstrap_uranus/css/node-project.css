@@ -1,0 +1,29 @@
+.node--type-project {
+  margin-block: 2rem 1.25rem;
+}
+.node--type-project .node__content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.details-wrapper {
+  padding-inline: 2rem;
+}
+.details-wrapper > .field {
+  margin-block-end: 1.25rem;
+}
+.node--type-project .field--type-link {
+  padding: .5rem 1rem;
+  background: #8ccebf;
+  display: inline-flex;
+  border-radius: 5px;
+  margin-inline-end: 1rem;
+  width: 6rem;
+  justify-content: center;
+}
+.node--type-project .field--type-link:hover {
+  background: orange;
+  color: black;
+}
+.node--type-project .field--type-link a:hover {
+  color: black;
+}
